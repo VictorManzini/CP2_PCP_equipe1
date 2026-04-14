@@ -1,4 +1,5 @@
-# Exercicio da aula 03 - Ler três valores de um triângulo 
+#Exercício 1 CP2 - PCP 
+# Exercício feito por: Victor Manzini 
 from time import sleep
 
 print(""" 

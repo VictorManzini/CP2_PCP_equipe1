@@ -1,4 +1,5 @@
-# Exercicio aula 03 - Peso do caminhão 
+#Exercício 1 CP2 - PCP 
+#Exeercício feito por: Victor Manzini
 from time import sleep
 
 print("""
