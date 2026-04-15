@@ -1,3 +1,5 @@
+# Aluno: Luiz Cesar Conti Salvador
+#RM: 571305
 def financiamento_aprovado(idade, renda, valor):
     return idade >= 18 and valor <= 20 * renda
 
