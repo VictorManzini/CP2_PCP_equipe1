@@ -1,14 +1,20 @@
-nome=input("digite seu nome")
-idade=int(input("Digite sua idade"))
-renda_mensal=float(input("Qual a sua renda mensal?"))
-valor_desejado=float(input("Qual valor deseja pegar de emprestimo?"))
-numero_parcelas=input("Qual numero de parcelas deseja? 3 até 24 ")
-valor_desejado_2=float(valor_desejado * 20)
+def financiamento_aprovado ( idade,renda,valor)
+    return idade >= 18 and valor <= 20 * renda
 
-if idade > 18 and valor_desejado_2 <= 20 * renda_mensal:
-    print("Financiamento aprovado")
-else:
-    print("Financiamento reprovado")
+def taxa_parcelas (parcelas):
+    if parcelas <= 6
+        return 0.05
+    elif parcelas <=12
+        return 0.08
+    if parcelas <= 24
+        return 0.10
+def valor_parcela (valor,taxa,parcelas):
+    if parcelas <= 6
+        return valor >= taxa * parcelas
+    elif parcelas <=12
+        return valor >= taxa * parcelas
+    if parcelas <= 24
+        return valor >= taxa * parcelas
 
 
 
